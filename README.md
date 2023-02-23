@@ -4,6 +4,7 @@ Library to use the HC-SR04 ultrasonic distance sensor on FRDM-KLZ25 with mbedOS
 HCSR04 class is defined in hc-sr04.h and implemented in hc-sr04.cpp.
 
 Public methods in HCSR04:
+
         HCSR04(PinName trig_pin, PinName echo_pin); // Constructor
         ~HCSR04(); // Destructor
         
