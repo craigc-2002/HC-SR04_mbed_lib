@@ -47,7 +47,7 @@ int main(){
 }
 ```
 Note:
-The following code in a file called mbed_app.json is needed to compile the code correctly to open a serial port at 9800 baud rate and be able to output floating point numbers. Without this, the basic printf used doesn't support %f.
+The following code is needed in a file called `mbed_app.json` to compile the code correctly to open a serial port at 9800 baud rate and be able to output floating point numbers. Without this, the basic printf used doesn't support %f.
 ```
 {
     "target_overrides": {
