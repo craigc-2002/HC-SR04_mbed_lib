@@ -6,7 +6,7 @@
 class HCSR04{
     float _distance_m; // Variable to store the most recently measured distance in m
     int _time_us; // Variable to store the most recently measured time in us
-    bool time_measured;
+    volatile bool time_measured;
 
     DigitalOut* trig; // Define pointer to output pin
     InterruptIn* echo; // Define pointer to input pin, used to measure the echo pulse
